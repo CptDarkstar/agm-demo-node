@@ -1,0 +1,5 @@
+# Ignore node modules
+node_modules/
+
+# Ignore Firebase Admin SDK JSON key
+voting-app-demo-adminsdk.json
