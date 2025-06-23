@@ -12,7 +12,7 @@ const admin = require("firebase-admin");
 
 // Initialize Firebase Admin SDK
 const serviceAccount = require(isLive
-  ? "/etc/secrets/Google-API.json"
+  ? "/etc/secrets/voting-app-demo-adminsdk.json"
   : "./voting-app-demo-adminsdk.json");
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
